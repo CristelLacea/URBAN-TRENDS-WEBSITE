@@ -36,7 +36,7 @@ background-color: black;
     0% {background-image: url('pexels-daiangan-102129.jpg');}
     33% {background-image: url('freestocks-_3Q3tsJ01nc-unsplash.jpg');}
     66%{background-image: url('hunters-race-hNoSCxPWYII-unsplash.jpg');}
-    100%{background-image: url(pexels-daiangan-102129.jpg);}
+    100%{background-image: url('pexels-daiangan-102129.jpg');}
 }
 
 .menu{
@@ -147,4 +147,14 @@ html,body{
 }
 .shop-button:hover{
     background-color: rgba(0, 0, 0, 0.7);
+}
+.account-panel{
+    width: 100vh;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
 }
